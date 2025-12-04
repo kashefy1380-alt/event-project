@@ -1,22 +1,22 @@
-/* فونت ایرانسنس */
+/* فونت ایران‌سنس - نسخه اصلاح‌شده */
 @font-face {
   font-family: 'IRANSans';
-  src: url('../fonts/IRANSans-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'IRANSans';
-  src: url('../fonts/IRANSans-Regular.woff2') format('woff2');
+  src: url('fonts/IranianSansRegular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'IRANSans';
-  src: url('../fonts/IRANSans-Bold.woff2') format('woff2');
+  src: url('fonts/IRANSansBold-Edit.woff2') format('woff2');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('fonts/IRANSans-Edit.woff2') format('woff2');
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -1312,4 +1312,7 @@ body[data-theme="dark"] .theme-toggle-btn:hover {
 .slider-title {
   color: white;
   font-size: 20px;
+}
+body {
+  font-family: 'IRANSans', Vazirmatn, sans-serif;
 }
