@@ -1282,3 +1282,34 @@ body[data-theme="dark"] .theme-toggle-btn:hover {
     font-size: 1.5rem;
   }
 }
+.event-slider {
+  margin-top: 40px;
+  position: relative;
+}
+
+.slider-content {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  height: 360px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  display: flex;
+  align-items: flex-end;
+  padding: 24px;
+}
+
+.slider-title {
+  color: white;
+  font-size: 20px;
+}
