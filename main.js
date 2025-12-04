@@ -52,35 +52,36 @@ const EventSlider = {
   SLIDE_DURATION: 5000, // 5 ثانیه
 
   slides: [
-    {
-      title: 'همایش ملی هوش مصنوعی و یادگیری ماشین',
-      image: 'https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800',
-      date: '1404/02/15',
-      type: 'همایش',
-      badge: 'badge-primary'
-    },
-    {
-      title: 'سخنرانی: آینده فناوری بلاکچین',
-      image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800',
-      date: '1404/01/28',
-      type: 'سخنرانی',
-      badge: 'badge-success'
-    },
-    {
-      title: 'کارگاه عملی طراحی UX/UI',
-      image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800',
-      date: '1404/02/05',
-      type: 'کارگاه',
-      badge: 'badge-warning'
-    },
-    {
-      title: 'کنفرانس امنیت سایبری',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800',
-      date: '1404/02/20',
-      type: 'کنفرانس',
-      badge: 'badge-danger'
-    }
-  ],
+  {
+    title: 'همایش ملی هوش مصنوعی و یادگیری ماشین',
+    image: 'images/photo-1540575467063-178a50c2df87.jpeg',
+    date: '1404/02/15',
+    type: 'همایش',
+    badge: 'badge-primary'
+  },
+  {
+    title: 'سخنرانی: آینده فناوری بلاکچین',
+    image: 'images/photo-1550751827-4bd374c3f58b.jpeg',
+    date: '1404/01/28',
+    type: 'سخنرانی',
+    badge: 'badge-success'
+  },
+  {
+    title: 'کارگاه عملی طراحی UX/UI',
+    image: 'images/photo-1561070791-2526d30994b5.jpeg',
+    date: '1404/02/05',
+    type: 'کارگاه',
+    badge: 'badge-warning'
+  },
+  {
+    title: 'کنفرانس امنیت سایبری',
+    image: 'images/photo-1639762681485-074b7f938ba0.jpeg',
+    date: '1404/02/20',
+    type: 'کنفرانس',
+    badge: 'badge-danger'
+  }
+],
+ 
 
   init() {
     const sliderContainer = document.getElementById('event-slider');
