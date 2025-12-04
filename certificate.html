@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دریافت گواهی - سامانه مدیریت رویدادهای دانشگاهی</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="flex align-center gap-2">
+                    <a href="index.html" class="logo-section">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <h1>سامانه مدیریت رویدادها</h1>
+                            <p>دانشگاه جندی شاپور دزفول</p>
+                        </div>
+                    </a>
+
+                    <nav>
+                        <a href="index.html">صفحه اصلی</a>
+                        <a href="events.html">رویدادها</a>
+                        <a href="certificate.html" class="active">گواهی‌نامه‌ها</a>
+                    </nav>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%); color: white; padding: 3rem 1rem; text-align: center;">
+        <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="64" height="64" style="margin: 0 auto 1rem; display: block;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+            <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.75rem;">دریافت گواهی حضور</h2>
+            <p style="font-size: 1.125rem; color: #ddd6fe;">
+                گواهی شرکت خود را در رویدادهای دانشگاهی دریافت کنید
+            </p>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section>
+        <div class="container">
+            <div style="max-width: 40rem; margin: 0 auto;">
+                <article class="card" style="padding: 2rem;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">جستجوی گواهی</h3>
+                    
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <label for="studentId" class="form-label">شماره دانشجویی</label>
+                            <div style="position: relative; margin-top: 0.5rem;">
+                                <svg style="position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); color: #9ca3af;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                                <input 
+                                    type="text" 
+                                    id="studentId" 
+                                    name="studentId" 
+                                    class="form-input" 
+                                    placeholder="شماره دانشجویی خود را وارد کنید"
+                                    style="padding-right: 2.75rem;"
+                                >
+                            </div>
+                            <p style="font-size: 0.875rem; color: #6b7280; margin-top: 0.5rem;">
+                                شماره دانشجویی که هنگام ثبت‌نام وارد کرده‌اید را وارد نمایید
+                            </p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            جستجوی گواهی
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16" style="margin-right: 0.5rem;">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+                    </form>
+                </article>
+
+                <!-- Demo Notice -->
+                <div class="info-card">
+                    <h3>برای مشاهده نمونه</h3>
+                    <p style="font-size: 0.875rem; margin-bottom: 0.75rem;">
+                        برای دیدن نمونه گواهی، ابتدا در یک رویداد ثبت‌نام کنید و سپس از شماره دانشجویی خود برای جستجو استفاده کنید.
+                    </p>
+                    <a href="events.html" class="btn btn-outline">
+                        مشاهده رویدادها
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16" style="margin-left: 0.5rem;">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Sample -->
+    <section style="background-color: white;">
+        <div class="container">
+            <div style="max-width: 56rem; margin: 0 auto;">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.5rem;">نمونه گواهی</h3>
+                    <button class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16" style="margin-left: 0.5rem;">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        دانلود PDF
+                    </button>
+                </div>
+
+                <!-- Certificate -->
+                <div class="certificate">
+                    <!-- Certificate Icon -->
+                    <div class="certificate-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+
+                    <!-- Title -->
+                    <div>
+                        <h2 class="certificate-title">گواهی شرکت</h2>
+                        <div class="certificate-divider"></div>
+                    </div>
+
+                    <!-- Content -->
+                    <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 40rem; position: relative; z-index: 10;">
+                        <p style="font-size: 1.125rem; color: #4b5563;">
+                            این گواهی بدین وسیله اعطا می‌شود به
+                        </p>
+                        
+                        <div class="certificate-name">
+                            علی احمدی
+                        </div>
+
+                        <p style="font-size: 1.125rem; color: #4b5563;">
+                            به منظور شرکت موفق در
+                        </p>
+
+                        <div class="certificate-event">
+                            همایش ملی هوش مصنوعی و یادگیری ماشین
+                        </div>
+
+                        <div class="certificate-meta">
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                                <span>1404/02/15</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                                <span>400123456</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="certificate-footer">
+                        <div style="color: #6b7280;">دانشکده مهندسی کامپیوتر</div>
+                        <div style="font-size: 0.875rem; color: #9ca3af; margin-top: 0.5rem;">دانشگاه جندی شاپور دزفول</div>
+                    </div>
+                </div>
+
+                <!-- Success Message -->
+                <div class="alert alert-success" style="margin-top: 1.5rem;">
+                    <h3 style="font-weight: 600; margin-bottom: 0.5rem; color: #065f46;">گواهی صادر شد</h3>
+                    <p style="font-size: 0.875rem; color: #047857;">
+                        گواهی شما با موفقیت صادر شد. می‌توانید آن را دانلود کرده و ذخیره کنید.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>درباره سامانه</h3>
+                    <p>سامانه مدیریت رویدادهای دانشگاهی برای سهولت در ثبت‌نام و مشارکت در رویدادهای علمی و آموزشی</p>
+                </div>
+                <div class="footer-section">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li><a href="events.html">رویدادها</a></li>
+                        <li><a href="certificate.html">گواهی‌نامه‌ها</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تماس با ما</h3>
+                    <p>
+                        دانشگاه جندی شاپور دزفول<br>
+                        دزفول، ایران<br>
+                        061-42428500
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 1404 سامانه مدیریت رویدادهای دانشگاهی. تمامی حقوق محفوظ است.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
