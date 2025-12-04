@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی - سامانه مدیریت رویدادهای دانشگاهی</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="flex align-center gap-2">
+                    <a href="index.html" class="logo-section">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <h1>سامانه مدیریت رویدادها</h1>
+                            <p>دانشگاه جندی شاپور دزفول</p>
+                        </div>
+                    </a>
+
+                    <nav>
+                        <a href="index.html" class="active">صفحه اصلی</a>
+                        <a href="events.html">رویدادها</a>
+                        <a href="certificate.html">گواهی‌نامه‌ها</a>
+                    </nav>
+                </div>
+
+                <div class="flex align-center">
+                    <button class="theme-toggle-btn" id="theme-toggle">
+                        <span class="theme-icon">🌙</span>
+                        <span>تم</span>
+                    </button>
+
+                    <button class="mobile-menu-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>سامانه مدیریت رویدادهای دانشگاهی</h2>
+            <p>ثبت‌نام آسان در رویدادهای علمی، کارگاه‌های آموزشی و همایش‌های دانشگاهی</p>
+            <div class="hero-buttons">
+                <a href="events.html" class="btn btn-primary">
+                    مشاهده رویدادها
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </a>
+                <a href="certificate.html" class="btn btn-secondary">دریافت گواهی</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">12</div>
+                    <div class="stat-label">رویداد فعال</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon green">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">850+</div>
+                    <div class="stat-label">شرکت‌کننده</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon purple">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">650+</div>
+                    <div class="stat-label">گواهی صادر شده</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon orange">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <div class="stat-value">95%</div>
+                    <div class="stat-label">رضایت کاربران</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Slider Section -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>رویدادهای ویژه</h2>
+                <p>جدیدترین و برجسته‌ترین رویدادهای دانشگاهی</p>
+            </div>
+            
+            <div class="event-slider" id="event-slider">
+                <!-- Slider will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Types -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>انواع رویدادها</h2>
+                <p>در رویدادهای مختلف دانشگاهی شرکت کنید</p>
+            </div>
+
+            <div class="grid grid-4">
+                <article class="card text-center">
+                    <div class="card-body">
+                        <div class="badge badge-primary mb-2">همایش‌ها</div>
+                        <div class="stat-value">8</div>
+                        <div class="stat-label">رویداد</div>
+                    </div>
+                </article>
+                <article class="card text-center">
+                    <div class="card-body">
+                        <div class="badge badge-success mb-2">سخنرانی‌ها</div>
+                        <div class="stat-value">15</div>
+                        <div class="stat-label">رویداد</div>
+                    </div>
+                </article>
+                <article class="card text-center">
+                    <div class="card-body">
+                        <div class="badge badge-warning mb-2">کارگاه‌ها</div>
+                        <div class="stat-value">12</div>
+                        <div class="stat-label">رویداد</div>
+                    </div>
+                </article>
+                <article class="card text-center">
+                    <div class="card-body">
+                        <div class="badge badge-danger mb-2">نمایشگاه‌ها</div>
+                        <div class="stat-value">5</div>
+                        <div class="stat-label">رویداد</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section style="background-color: white;">
+        <div class="container">
+            <div class="flex justify-between align-center mb-3">
+                <div>
+                    <h2>رویدادهای پیش رو</h2>
+                    <p style="color: #6b7280;">جدیدترین رویدادهای دانشگاهی</p>
+                </div>
+                <a href="events.html" class="btn btn-outline">
+                    مشاهده همه
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Event Card 1 -->
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800" alt="همایش ملی هوش مصنوعی">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-primary">همایش</span>
+                        <h3 class="card-title">همایش ملی هوش مصنوعی و یادگیری ماشین</h3>
+                        
+                        <div class="event-meta">
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                                <span>1404/02/15 - 09:00 - 17:00</span>
+                            </div>
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                                <span>156 از 200 نفر</span>
+                            </div>
+                        </div>
+
+                        <div class="tags">
+                            <span class="badge badge-secondary">هوش مصنوعی</span>
+                            <span class="badge badge-secondary">یادگیری ماشین</span>
+                            <span class="badge badge-secondary">داده کاوی</span>
+                        </div>
+
+                        <a href="event-detail.html" class="btn btn-primary btn-block">مشاهده جزئیات</a>
+                    </div>
+                </article>
+
+                <!-- Event Card 2 -->
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800" alt="آینده فناوری بلاکچین">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-success">سخنرانی</span>
+                        <h3 class="card-title">سخنرانی: آینده فناوری بلاکچین</h3>
+                        
+                        <div class="event-meta">
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                                <span>1404/01/28 - 14:00 - 16:00</span>
+                            </div>
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                                <span>98 از 150 نفر</span>
+                            </div>
+                        </div>
+
+                        <div class="tags">
+                            <span class="badge badge-secondary">بلاکچین</span>
+                            <span class="badge badge-secondary">رمزارز</span>
+                            <span class="badge badge-secondary">فناوری</span>
+                        </div>
+
+                        <a href="event-detail.html" class="btn btn-primary btn-block">مشاهده جزئیات</a>
+                    </div>
+                </article>
+
+                <!-- Event Card 3 -->
+                <article class="card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800" alt="کارگاه طراحی UX/UI">
+                    </div>
+                    <div class="card-body">
+                        <span class="badge badge-warning">کارگاه</span>
+                        <h3 class="card-title">کارگاه عملی طراحی UX/UI</h3>
+                        
+                        <div class="event-meta">
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                                <span>1404/02/05 - 10:00 - 15:00</span>
+                            </div>
+                            <div class="event-meta-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                                <span>30 از 30 نفر</span>
+                            </div>
+                        </div>
+
+                        <div class="tags">
+                            <span class="badge badge-secondary">طراحی</span>
+                            <span class="badge badge-secondary">UX</span>
+                            <span class="badge badge-secondary">UI</span>
+                        </div>
+
+                        <button class="btn btn-primary btn-block" disabled>ظرفیت تکمیل شده</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>درباره سامانه</h3>
+                    <p>سامانه مدیریت رویدادهای دانشگاهی برای سهولت در ثبت‌نام و مشارکت در رویدادهای علمی و آموزشی</p>
+                </div>
+                <div class="footer-section">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li><a href="events.html">رویدادها</a></li>
+                        <li><a href="certificate.html">گواهی‌نامه‌ها</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تماس با ما</h3>
+                    <p>
+                        دانشگاه جندی شاپور دزفول<br>
+                        دزفول، ایران<br>
+                        061-42428500
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 1404 سامانه مدیریت رویدادهای دانشگاهی. تمامی حقوق محفوظ است.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

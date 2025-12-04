@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جزئیات رویداد - سامانه مدیریت رویدادهای دانشگاهی</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="flex align-center gap-2">
+                    <a href="index.html" class="logo-section">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <h1>سامانه مدیریت رویدادها</h1>
+                            <p>دانشگاه جندی شاپور دزفول</p>
+                        </div>
+                    </a>
+
+                    <nav>
+                        <a href="index.html">صفحه اصلی</a>
+                        <a href="events.html">رویدادها</a>
+                        <a href="certificate.html">گواهی‌نامه‌ها</a>
+                    </nav>
+                </div>
+
+                <div class="flex align-center">
+                    <button class="theme-toggle-btn" id="theme-toggle">
+                        <span class="theme-icon">🌙</span>
+                        <span>تم</span>
+                    </button>
+
+                    <button class="mobile-menu-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li><a href="index.html">صفحه اصلی</a></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </li>
+                <li><a href="events.html">رویدادها</a></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </li>
+                <li class="active">همایش ملی هوش مصنوعی و یادگیری ماشین</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Event Detail -->
+    <section>
+        <div class="container">
+            <div class="event-detail-grid">
+                <!-- Main Content -->
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800" alt="همایش هوش مصنوعی" class="event-detail-image">
+                    
+                    <div class="event-detail-content">
+                        <span class="badge badge-primary">همایش</span>
+                        <h2 class="event-detail-title">همایش ملی هوش مصنوعی و یادگیری ماشین</h2>
+                        <p class="event-detail-subtitle">National Conference on AI & Machine Learning</p>
+
+                        <div class="tags">
+                            <span class="badge badge-secondary">هوش مصنوعی</span>
+                            <span class="badge badge-secondary">یادگیری ماشین</span>
+                            <span class="badge badge-secondary">داده کاوی</span>
+                        </div>
+
+                        <!-- Countdown Timer -->
+                        <div>
+                            <h3 style="font-size: 1.25rem; margin: 1.5rem 0 0.75rem;">زمان باقیمانده تا شروع</h3>
+                            <div data-countdown="1404/02/15 - 09:00">
+                                <!-- Countdown will be rendered by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 style="font-size: 1.25rem; margin: 1.5rem 0 0.75rem;">درباره رویداد</h3>
+                            <p class="event-detail-description">
+                                همایش دو روزه با حضور اساتید برجسته در حوزه هوش مصنوعی و یادگیری ماشین. این همایش شامل ارائه مقالات، 
+                                کارگاه‌های عملی و پنل تخصصی خواهد بود. در این رویداد با جدیدترین تکنولوژی‌ها و متدهای پیشرفته در حوزه 
+                                هوش مصنوعی آشنا خواهید شد و فرصتی مناسب برای تبادل اطلاعات و ایجاد ارتباط با سایر متخصصان این حوزه 
+                                خواهید داشت.
+                            </p>
+                        </div>
+
+                        <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb;">
+                            <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">سخنرانان</h3>
+                            <div class="speakers-list">
+                                <div class="speaker-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                    </svg>
+                                    <span>دکتر احمدی</span>
+                                </div>
+                                <div class="speaker-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                    </svg>
+                                    <span>دکتر محمدی</span>
+                                </div>
+                                <div class="speaker-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                    </svg>
+                                    <span>دکتر رضایی</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sidebar -->
+                <aside>
+                    <div class="card sidebar" style="padding: 1.5rem;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">اطلاعات ثبت‌نام</h3>
+
+                        <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" style="color: #2563eb; flex-shrink: 0; margin-top: 0.25rem;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                </svg>
+                                <div>
+                                    <div style="font-size: 0.875rem; color: #6b7280;">تاریخ و زمان</div>
+                                    <div style="font-weight: 500;">1404/02/15</div>
+                                    <div style="font-size: 0.875rem; color: #6b7280;">09:00 - 17:00</div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" style="color: #2563eb; flex-shrink: 0; margin-top: 0.25rem;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                </svg>
+                                <div>
+                                    <div style="font-size: 0.875rem; color: #6b7280;">مکان برگزاری</div>
+                                    <div style="font-weight: 500;">سالن همایش‌های دانشگاه</div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" style="color: #2563eb; flex-shrink: 0; margin-top: 0.25rem;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                                <div style="flex: 1;">
+                                    <div style="font-size: 0.875rem; color: #6b7280; margin-bottom: 0.5rem;">ظرفیت</div>
+                                    <div style="font-weight: 500; margin-bottom: 0.5rem;">156 از 200 نفر</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-bar-fill orange" style="width: 78%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" style="color: #2563eb; flex-shrink: 0; margin-top: 0.25rem;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                                <div>
+                                    <div style="font-size: 0.875rem; color: #6b7280;">برگزارکننده</div>
+                                    <div style="font-weight: 500;">دانشکده مهندسی کامپیوتر</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="register.html" class="btn btn-primary btn-block" style="font-size: 1.125rem;">ثبت‌نام در رویداد</a>
+                        <p style="text-align: center; font-size: 0.875rem; color: #6b7280; margin-top: 0.75rem;">
+                            ثبت‌نام رایگان است
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>نکات مهم</h3>
+                        <ul>
+                            <li>
+                                <span>•</span>
+                                <span>لطفاً 15 دقیقه قبل از شروع حضور داشته باشید</span>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <span>کارت دانشجویی خود را همراه داشته باشید</span>
+                            </li>
+                            <li>
+                                <span>•</span>
+                                <span>گواهی پس از اتمام رویداد صادر می‌شود</span>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>درباره سامانه</h3>
+                    <p>سامانه مدیریت رویدادهای دانشگاهی برای سهولت در ثبت‌نام و مشارکت در رویدادهای علمی و آموزشی</p>
+                </div>
+                <div class="footer-section">
+                    <h3>دسترسی سریع</h3>
+                    <ul>
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li><a href="events.html">رویدادها</a></li>
+                        <li><a href="certificate.html">گواهی‌نامه‌ها</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>تماس با ما</h3>
+                    <p>
+                        دانشگاه جندی شاپور دزفول<br>
+                        دزفول، ایران<br>
+                        061-42428500
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 1404 سامانه مدیریت رویدادهای دانشگاهی. تمامی حقوق محفوظ است.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

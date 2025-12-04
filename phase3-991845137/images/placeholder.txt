@@ -1,0 +1,26 @@
+پوشه تصاویر پروژه
+==================
+
+این پوشه برای نگهداری تصاویر محلی استفاده می‌شود.
+
+در حال حاضر تصاویر از Unsplash لود می‌شوند:
+- https://images.unsplash.com
+
+اگر می‌خواهید تصاویر را به صورت محلی ذخیره کنید:
+
+1. تصاویر را از لینک‌های Unsplash دانلود کنید
+2. در این پوشه با نام‌های مشخص ذخیره کنید
+3. مسیر src در فایل‌های HTML را تغییر دهید
+
+مثال:
+از: src="https://images.unsplash.com/photo-xxx"
+به: src="images/ai-conference.jpg"
+
+لیست تصاویر مورد نیاز:
+------------------------
+1. ai-conference.jpg     (همایش هوش مصنوعی)
+2. blockchain.jpg        (بلاکچین)
+3. ux-ui-workshop.jpg    (طراحی UX/UI)
+4. project-exhibition.jpg (نمایشگاه پروژه‌ها)
+5. cybersecurity.jpg     (امنیت سایبری)
+6. react-nextjs.jpg      (React و Next.js)

@@ -1,0 +1,34 @@
+آدرس وب‌سایت آپلود شده:
+================================
+
+[آدرس وب‌سایت خود را اینجا بنویسید]
+
+مثال:
+https://my-university-events.netlify.app
+
+یا:
+https://username.github.io/project-name
+
+یا:
+http://your-site.000webhostapp.com
+
+
+راهنمای آپلود:
+--------------
+
+1. یکی از هاست‌های رایگان زیر را انتخاب کنید:
+   - Netlify (netlify.com) - توصیه می‌شود
+   - GitHub Pages (pages.github.com)
+   - Vercel (vercel.com)
+   - InfinityFree (infinityfree.net)
+
+2. فایل‌های پروژه را آپلود کنید
+
+3. آدرس دریافتی را در این فایل بنویسید
+
+4. این فایل را همراه Phase3.zip تحویل دهید
+
+
+تاریخ آپلود: [تاریخ آپلود]
+نام دانشجو: [نام شما]
+شماره دانشجویی: [شماره دانشجویی]
